@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minha Página</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Bem-vindo à Minha Página</h1>
+  </header>
+  <main>
+    <section>
+      <h2>Sobre</h2>
+      <p>Esta é uma página simples que criamos para aprender HTML e CSS. Aqui você encontrará vídeos, links e uma apresentação estilosa!</p>
+    </section>
+    <section>
+      <h2>Vídeos Interativos</h2>
+      <div class="video-container">
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+          <video src="video1.mp4" muted></video>
+        </a>
+        <a href="https://www.youtube.com/watch?v=3JZ_D3ELwOQ" target="_blank">
+          <video src="video2.mp4" muted></video>
+        </a>
+      </div>
+    </section>
+    <section>
+      <h2>Links Úteis</h2>
+      <ul>
+        <li><a href="https://www.google.com/fonts" target="_blank">Google Fonts</a></li>
+        <li><a href="https://github.com" target="_blank">GitHub</a></li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>© 2024 Minha Página. Feito com HTML e CSS.</p>
+  </footer>
+</body>
+</html>
